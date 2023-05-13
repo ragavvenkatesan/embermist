@@ -28,6 +28,3 @@ menu_contacts:
 - faicon: fas fa-envelope
   url: "mailto:booking@embermist.band"
   target: 
-- faicon: fas fa-rss
-  url: /feed.xml
-  target: _blank

@@ -2,7 +2,7 @@ h1 {
     text-transform: uppercase;
     font-weight: 700;
     text-rendering: optimizeLegibility;
-    color: $black;
+    color: $white;
     text-align: center;
     font-size: 2.5em;
     letter-spacing: -1px;
@@ -13,7 +13,7 @@ h2, h3 a {
     font-weight: 500;
     font-size: 1.4em;
     line-height: 1.4em;
-    color: $black;
+    color: $white;
 }
 
 * {
@@ -24,7 +24,7 @@ h2, h3 a {
 }
 body {
     font-size: 16px;
-    color: $white;
+    color: $black;
     font-family: 'Jost',Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -70,7 +70,7 @@ main {
             }
             & > a {
                 color: $p_text;
-                @include underline-on-hover($black);
+                @include underline-on-hover($white);
             }
         }
     }
@@ -83,7 +83,7 @@ a {
 }
 a, p, li {
     font-size: 1.1em;
-    color: $black
+    color: $white
 }
 
 li {
@@ -160,6 +160,6 @@ audio {
     color: #000000;
     a {
         font-size: 0.9em;
-        @include underline-on-hover($black);
+        @include underline-on-hover($white);
     }
 }

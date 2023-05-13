@@ -18,6 +18,8 @@ embed_player:
   src: assets/audio/sample_song.mp3
   name: Sample Song
   is_relative_url: true
+categories:
+  - discography
 ---
 Here you can write more about a certain release, e.g. tracklist:
 1. Y

@@ -8,25 +8,25 @@ menu_pages:
   category: discography
   tooltip: Discography tooltip
 
-- title: Collaborations
-  url: /collaborations/
-  category: collaborations
-  tooltip: Collaborations tooltip
+- title: News
+  url: /news/
+  category: news
+  tooltip: News tooltip
 
 - title: About
   url: about.html
   category: about
-  tooltip: This is about
+  tooltip: About tooltip
 
 menu_contacts:
 - faicon: fab fa-soundcloud
-  url: 
+  url: "https://soundcloud.com/ember-mist"
   target: _blank
-- faicon: fab fa-twitter
-  url: 
+- faicon: fab fa-instagram
+  url: "https://www.instagram.com/ember_mist_band/"
   target: _blank
 - faicon: fas fa-envelope
-  url:
+  url: "mailto:booking@embermist.band"
   target: 
 - faicon: fas fa-rss
   url: /feed.xml

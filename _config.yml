@@ -20,7 +20,7 @@ permalink: /:title.html
 pagination:
   enabled: true
   per_page: 4
-  limit: 0
+  limit: 100
   sort_field: 'date'
   sort_reverse: true
 

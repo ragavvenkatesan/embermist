@@ -9,11 +9,6 @@ menu_pages:
   category: about
   tooltip: About Ember Mist
 
-- title: Discography
-  url: /discography/
-  category: discography
-  tooltip: Discography tooltip
-
 menu_contacts:
 - faicon: fab fa-soundcloud
   url: "https://soundcloud.com/ember-mist"

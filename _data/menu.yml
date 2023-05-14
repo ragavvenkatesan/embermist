@@ -2,6 +2,12 @@ menu_pages:
 - title: Home
   url: /
   tooltip: Homepage
+  category: home
+
+- title: About
+  url: about.html
+  category: about
+  tooltip: About Ember Mist
 
 - title: Discography
   url: /discography/

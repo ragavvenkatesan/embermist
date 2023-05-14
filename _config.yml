@@ -25,6 +25,7 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
+
   exclude:
   - CHANGELOG.md
   - CNAME
@@ -35,11 +36,4 @@ pagination:
   - screenshot.png
   - docs/
   - node_modules
-collections:
-  discography:
-    output: true
-    permalink: /discography/:path/
-  home:
-    output: true
-    permalink: /home/:path/
-permalink: pretty
+permalink: /:title.html

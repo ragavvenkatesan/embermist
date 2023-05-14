@@ -36,4 +36,13 @@ pagination:
   - screenshot.png
   - docs/
   - node_modules
+
+collections:
+  discography:
+    output: true
+    permalink: /discography/:path/
+  home:
+    output: true
+    permalink: /:path/
+
 permalink: /:title.html

@@ -1,7 +1,6 @@
 menu_pages:
 - title: Home
   url: /
-  category: home
   tooltip: Homepage
 
 - title: Discography

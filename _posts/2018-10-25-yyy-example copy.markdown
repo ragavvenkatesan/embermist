@@ -3,6 +3,8 @@ layout: post
 title: Collaboration entry example
 image: assets/img/YyY-Cover.png
 type: LP
+categories:
+    - discography
 play:
     - name: YouTube
       url: https://www.youtube.com/watch?v=X3jUuQVuD0w

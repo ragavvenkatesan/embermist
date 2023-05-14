@@ -1,21 +1,33 @@
 menu_pages:
 - title: Home
   url: /
-  tooltip: Homepage
   category: home
+
+- title: Discography
+  url: /discography/
+  category: discography
+  tooltip: Discography tooltip
+
+- title: Collaborations
+  url: /collaborations/
+  category: collaborations
+  tooltip: Collaborations tooltip
 
 - title: About
   url: about.html
   category: about
-  tooltip: About Ember Mist
+  tooltip: This is about
 
 menu_contacts:
 - faicon: fab fa-soundcloud
-  url: "https://soundcloud.com/ember-mist"
+  url: 
   target: _blank
-- faicon: fab fa-instagram
-  url: "https://www.instagram.com/ember_mist_band/"
+- faicon: fab fa-twitter
+  url: 
   target: _blank
 - faicon: fas fa-envelope
-  url: "mailto:booking@embermist.band"
+  url:
   target: 
+- faicon: fas fa-rss
+  url: /feed.xml
+  target: _blank

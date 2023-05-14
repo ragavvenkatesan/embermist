@@ -1,9 +1,9 @@
-author: Ember Mist
+author: Site Author
 logo: assets/img/band_logo.png
-clickToEnlargeImages: TruFalsee
+clickToEnlargeImages: True
 lang: en
 cookies:
-  enabled: False
+  enabled: True
   message: This site might be using cookies! Customize your message or disable cookies in metaData.yml!
   agreeButtonText: Yes, I agree
   disagreeButtonText: No, take me to settings

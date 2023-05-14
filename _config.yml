@@ -1,15 +1,14 @@
-title: Ember Mist
-tagline: A Seattle based original rock band
-email: booking@embermist.band
+title: minimal-music-project
+tagline: A site showing the usage of Jekyll custom theme
+email: email@example.com
 description: >-
-  The website for Ember Mist a seattle based rock band.
-url: "https://embermist.band"
-author: Ragav Venkatesan
-instagram:
-  username: ember_mist_band
-  card: summary
-soundcloud:
-  username: ember-mist
+  This website was created as a demonstration for Jekyll custom theme
+  named minimal-music-project. Its main feature is to make it easy to create
+  websites for music projects
+url: "https://itspatrq.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+author: itspatrq
+twitter:
+  username: itspatrq
   card: summary
 plugins:
   - jekyll-seo-tag
@@ -18,6 +17,8 @@ plugins:
   - jekyll-paginate-v2
 # Build settings
 markdown: kramdown
+remote_theme: ItsPatrq/minimal-music-project
+permalink: /:title.html
 pagination:
   enabled: true
   per_page: 4
@@ -35,10 +36,3 @@ pagination:
   - screenshot.png
   - docs/
   - node_modules
-
-collections:
-  home:
-    output: true
-    permalink: /:path/
-
-permalink: /:title.html

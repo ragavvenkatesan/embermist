@@ -2,7 +2,6 @@
 layout: post
 title: Don't you dare
 image: assets/img/dont-you-dare-art.png
-type: LP
 date: "2023-04-20"
 category: home
 play:

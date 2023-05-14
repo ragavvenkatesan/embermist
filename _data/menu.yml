@@ -3,11 +3,6 @@ menu_pages:
   url: /
   category: home
 
-- title: About
-  url: about.html
-  category: about
-  tooltip: About tooltip
-
 menu_contacts:
 - faicon: fab fa-soundcloud
   url: "https://soundcloud.com/ember-mist"

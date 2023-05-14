@@ -2,6 +2,7 @@ menu_pages:
 - title: Home
   url: /
   category: home
+  tooltip: Homepage
 
 menu_contacts:
 - faicon: fab fa-soundcloud

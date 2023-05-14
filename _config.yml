@@ -36,3 +36,7 @@ pagination:
   - screenshot.png
   - docs/
   - node_modules
+collections:
+  home:
+    output: true
+    permalink: pretty

@@ -19,7 +19,7 @@ plugins:
 # Build settings
 markdown: kramdown
 remote_theme: ItsPatrq/minimal-music-project
-permalink: /:title.html
+permalink: pretty
 pagination:
   enabled: true
   per_page: 4
@@ -39,4 +39,4 @@ pagination:
 collections:
   home:
     output: true
-    permalink: pretty
+    permalink: /:path/

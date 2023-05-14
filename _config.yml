@@ -18,7 +18,6 @@ plugins:
   - jekyll-paginate-v2
 # Build settings
 markdown: kramdown
-remote_theme: ItsPatrq/minimal-categorized
 pagination:
   enabled: true
   per_page: 4

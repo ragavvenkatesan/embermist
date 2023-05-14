@@ -7,7 +7,6 @@ layout: default
         {% for post in paginator.posts %}
         <hr>
         {% include discography-entry.html currPost=post %}
-        {% endif %}
         {% endfor %}
 
         {% include pagination-buttons.html %}

@@ -26,17 +26,6 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
-collections:
-  discography:
-    output: true
-    permalink: /discography/:path/
-  news:
-    output: true
-    permalink: /news/:path/
-  shows:
-    output: true
-    permalink: /shows/:path/
-
   exclude:
   - CHANGELOG.md
   - CNAME
@@ -47,3 +36,7 @@ collections:
   - screenshot.png
   - docs/
   - node_modules
+collections:
+  discography:
+    output: true
+    permalink: /discography/:path/

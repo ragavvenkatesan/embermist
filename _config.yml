@@ -2,11 +2,14 @@ title: Ember Mist
 tagline: A Seattle based original rock band
 email: booking@embermist.band
 description: >-
-  The website for Ember Mist a seattle based rock band
+  The website for Ember Mist a seattle based rock band.
 url: "https://embermist.band"
 author: Ragav Venkatesan
 instagram:
   username: ember_mist_band
+  card: summary
+soundcloud:
+  username: ember-mist
   card: summary
 plugins:
   - jekyll-seo-tag
@@ -20,9 +23,19 @@ permalink: /:title.html
 pagination:
   enabled: true
   per_page: 4
-  limit: 100
+  limit: 0
   sort_field: 'date'
   sort_reverse: true
+collections:
+  discography:
+    output: true
+    permalink: /discography/:path/
+  news:
+    output: true
+    permalink: /news/:path/
+  shows:
+    output: true
+    permalink: /shows/:path/
 
   exclude:
   - CHANGELOG.md

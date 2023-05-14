@@ -3,16 +3,6 @@ menu_pages:
   url: /
   category: home
 
-- title: Discography
-  url: /discography/
-  category: discography
-  tooltip: Discography tooltip
-
-- title: News
-  url: /news/
-  category: news
-  tooltip: News tooltip
-
 - title: About
   url: about.html
   category: about

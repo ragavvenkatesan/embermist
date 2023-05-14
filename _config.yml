@@ -40,3 +40,6 @@ collections:
   discography:
     output: true
     permalink: /discography/:path/
+  home:
+    output: true
+    permalink: /home/:path/

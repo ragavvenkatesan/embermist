@@ -6,7 +6,6 @@ category: home
     <div class="post-feed">
         {{ content }}
         {% for post in paginator.posts %}
-        {% if post.categories contains page.category %}
         <hr>
         <article>
             <header>

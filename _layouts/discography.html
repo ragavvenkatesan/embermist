@@ -5,7 +5,6 @@ layout: default
     <div class="discography">
         {{ content }}
         {% for post in paginator.posts %}
-        {% if post.categories contains page.category %}
         <hr>
         {% include discography-entry.html currPost=post %}
         {% endif %}

@@ -4,6 +4,11 @@ menu_pages:
   category: home
   tooltip: Homepage
 
+- title: Discography
+  url: /discography/
+  category: discography
+  tooltip: Discography tooltip
+
 menu_contacts:
 - faicon: fab fa-soundcloud
   url: "https://soundcloud.com/ember-mist"

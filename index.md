@@ -7,4 +7,4 @@ pagination:
     title: ':title'
 image: assets/img/band_logo.png
 ---
-Welcome to Ember Mist homepage
+Welcome to Ember Mist homepage.

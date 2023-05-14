@@ -3,7 +3,6 @@ layout: post
 title: Don't you dare
 image: assets/img/dont-you-dare-art.png
 date: "2023-04-20"
-category: home
 play:
     - name: SoundCloud
       url: https://soundcloud.com/ember-mist/dont-you-dare

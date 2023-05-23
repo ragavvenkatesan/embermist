@@ -53,7 +53,7 @@ $(function () {
 window.addEventListener("load", function () {
   if (document.getElementById('insertMail')) {
     let name = "booking" ; // Update yours informations here
-    let domain = "varietypack.band" ; // Update yours informations here
+    let domain = "embermist.band" ; // Update yours informations here
     //let subject = "subject=Formulaire Tuco" ;
     let divMail = document.getElementById('insertMail');
     let newAhref = document.createElement('a');

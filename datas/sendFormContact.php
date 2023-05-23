@@ -7,7 +7,7 @@
 
 				// text to send
 				$texte = "Hi there,<br /><br />";
-				$texte = $texte . "Message from varietypack.band<br />";
+				$texte = $texte . "Message from embermist.band<br />";
 				$texte = $texte . "Thanks for contacting Variety Pack. We will get back to you ASAP!<br />";
 				$texte = $texte . "Name : $nom<br />";
 				$texte = $texte . "Email :  $mail<br /><br />";
@@ -18,13 +18,13 @@
 				$texte = stripslashes($texte);
 
 				// Recipient and subject of the message
-				$destinataire = "contact@varietypack.band"; // input your email here
-				$objet = "Message from your varietypack.band"; // input your domain name here
+				$destinataire = "contact@embermist.band"; // input your email here
+				$objet = "Message from your embermist.band"; // input your domain name here
 
 				// Headers
 	      $headers = array(
 	                      'Content-type' => 'text/html',
-	                      'From' => 'contact@varietypack.band', // input your email from here
+	                      'From' => 'contact@embermist.band', // input your email from here
 	                      'X-Mailer' => 'PHP/' . phpversion()
 	                  );
 

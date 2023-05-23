@@ -1,12 +1,11 @@
 # Site settings
-title: Variety Pack
-email: contact@varietypack.band
-description: "Welcome to the webpage of the band Variety Pack."
-baseurl: "http://varietypack.band"
-url: "http://varietypack.band"
+title: Ember Mist
+email: booking@embermist.band
+description: "Welcome to the webpage of the band Ember Mist."
+baseurl: "https://embermist.band"
+url: "https://embermist.band"
 
-instagram_username: vpseattle
-facebook_username: varietypack.rockband
+instagram_username: ember_mist_band
 
 # Build settings
 markdown: kramdown

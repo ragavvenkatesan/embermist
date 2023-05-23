@@ -313,7 +313,7 @@ $(function () {
 
 // Locations
 $(function () {
-    $(".card").on('click', () => {window.location.href = "https://www.instagram.com/vpseattle"});
+    $(".card").on('click', () => {window.location.href = "https://www.instagram.com/ember_mist_band"});
 })
 // Location socials
 $(function () {
@@ -323,6 +323,6 @@ $(function () {
     });
     $('.instagram').on('click', function(event) {
       event.preventDefault();
-      window.location.href = "https://www.instagram.com/vpseattle/";
+      window.location.href = "https://www.instagram.com/ember_mist_band/";
     });
 })

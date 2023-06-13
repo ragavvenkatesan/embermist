@@ -317,9 +317,9 @@ $(function () {
 })
 // Location socials
 $(function () {
-    $('.facebook').on('click', function(event) {
+    $('.youtube').on('click', function(event) {
       event.preventDefault();
-      window.location.href = "https://www.facebook.com/varietypack.rockband";
+      window.location.href = "https://www.youtube.com/@ember_mist_bandd";
     });
     $('.instagram').on('click', function(event) {
       event.preventDefault();

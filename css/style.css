@@ -2,7 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -32,6 +34,15 @@ body {
   background-color: #1A1B1D;
 }
 
+caption {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 160%;
+  padding: 5px;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
 .shareBtn {
   position: absolute;
   top: 5%;
@@ -44,6 +55,7 @@ body {
   cursor: pointer;
   transition: all ease-in-out 250ms;
 }
+
 .elementBtn img {
   position: relative;
   width: 25px;
@@ -64,6 +76,7 @@ body {
   cursor: pointer;
   z-index: 3;
 }
+
 .menu .line {
   position: absolute;
   left: 25%;
@@ -71,27 +84,32 @@ body {
   transform-origin: left;
   background-color: #1A1B1D;
 }
+
 .menu .line1 {
   top: 35%;
   width: 50%;
   transition: all ease-in-out 250ms;
   transform: translateY(-50%) scaleX(0.5);
 }
+
 .menu .line2 {
   top: 50%;
   width: 50%;
   transition: all ease-in-out 250ms;
   transform: translateY(-50%) scaleX(1);
 }
+
 .menu .line3 {
   top: 65%;
   width: 50%;
   transition: all ease-in-out 250ms;
   transform: translateY(-50%) scaleX(0.75);
 }
+
 .menu:hover .line1 {
   transform: scaleX(1);
 }
+
 .menu:hover .line3 {
   transform: scaleX(1);
 }
@@ -113,6 +131,7 @@ body {
   opacity: 0;
   z-index: -1;
 }
+
 .ss-menu img {
   position: absolute;
   top: 50%;
@@ -122,10 +141,12 @@ body {
   height: 20px;
   transition: all ease-in-out 100ms;
 }
+
 .ss-menu:hover img {
   transform: translate(-50%, -50%) scale(1.2);
   transition: all ease-in-out 100ms;
 }
+
 .ss-menu:hover {
   background-color: #F4591E;
   transition: all ease-in-out 100ms;
@@ -242,18 +263,22 @@ h1 {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
+
 @keyframes opacity {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
+
 h2 {
   font-size: 2rem;
 }
@@ -282,21 +307,25 @@ h2#slogan {
     opacity: 0;
     transform: translateY(-45px) translateX(-50%);
   }
+
   to {
     opacity: 1;
     transform: translateY(0) translateX(-50%);
   }
 }
+
 @keyframes slideY {
   from {
     opacity: 0;
     transform: translateY(-45px) translateX(-50%);
   }
+
   to {
     opacity: 1;
     transform: translateY(0) translateX(-50%);
   }
 }
+
 p {
   color: #9fa0ac;
   line-height: 30px;
@@ -326,25 +355,30 @@ p.miniPara {
   margin: auto;
   width: 80%;
 }
+
 .imgContent .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   cursor: pointer;
 }
+
 .imgContent .card p {
   text-align: center;
   margin: 0;
   padding: 0;
 }
+
 .imgContent .card p:first-of-type {
   font-size: 1.3rem;
   color: #FEFEFE;
 }
+
 .imgContent .card:hover::before {
   opacity: 1;
   transition: all ease-in-out 150ms;
 }
+
 .imgContent img {
   position: relative;
   width: 100%;
@@ -372,6 +406,7 @@ p.pink {
   cursor: pointer;
   transition: all 250ms cubic-bezier(0, 0.69, 0.46, 0.95);
 }
+
 p.pink:hover {
   transform: translateX(5px);
   transition: all 250ms cubic-bezier(0, 0.69, 0.46, 0.95);
@@ -388,12 +423,14 @@ p.pink:hover {
   width: 100%;
   border-spacing: 0;
 }
+
 .date table td {
   border-bottom: solid 1px #9fa0ac;
   color: #9fa0ac;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .date table td a {
   display: inline-block;
   width: auto;
@@ -401,16 +438,20 @@ p.pink:hover {
   margin: 0;
   padding: 0;
 }
+
 .date table td a:hover {
   transform: translateX(5px);
   transition: all 250ms cubic-bezier(0, 0.69, 0.46, 0.95);
 }
+
 .date table td:first-of-type {
   color: white;
 }
+
 .date table td:nth-of-type(even) {
   padding-left: 7px;
 }
+
 .date table span {
   color: white;
   font-size: 16px;
@@ -418,7 +459,8 @@ p.pink:hover {
   letter-spacing: 1px;
 }
 
-.ss-nextShow, .ss-music {
+.ss-nextShow,
+.ss-music {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -451,24 +493,29 @@ form.newsletterForm input {
   margin: 0;
   outline: none;
 }
+
 form.newsletterForm input[type=email] {
   color: #1A1B1D;
   border: solid #1A1B1D 3px;
   width: 50%;
   border-radius: 999px 0 0 999px;
 }
+
 form.newsletterForm label[for=checkRobotNews] {
   color: #9fa0ac;
 }
+
 form.newsletterForm #hideNews {
   display: none;
   margin: 10px 0;
 }
+
 form.newsletterForm #hideNews input {
   border-radius: 999px;
   font-size: 0.9rem;
   background-color: #FEFEFE;
 }
+
 form.newsletterForm input[type=submit] {
   text-transform: uppercase;
   border: solid #1A1B1D 3px;
@@ -478,6 +525,7 @@ form.newsletterForm input[type=submit] {
   cursor: pointer;
   transition: all 250ms cubic-bezier(0, 0.69, 0.46, 0.95);
 }
+
 form.newsletterForm input[type=submit]:hover {
   transition: all 250ms cubic-bezier(0, 0.69, 0.46, 0.95);
   color: #F4591E;
@@ -490,7 +538,9 @@ form.newsletterForm input[type=submit]:hover {
   justify-content: center;
   align-items: center;
 }
-.contactForm input, .contactForm textarea {
+
+.contactForm input,
+.contactForm textarea {
   color: #1A1B1D;
   padding: 15px;
   width: 70%;
@@ -499,20 +549,26 @@ form.newsletterForm input[type=submit]:hover {
   font-family: inherit;
   outline: none;
 }
+
 .contactForm input {
   border-radius: 999px;
 }
-.contactForm label, .contactForm p.labelP {
+
+.contactForm label,
+.contactForm p.labelP {
   color: white;
   font-size: 3vh;
   font-weight: 900;
 }
+
 .contactForm p.labelP {
   margin: 20px auto;
 }
+
 .contactForm textarea {
   border-radius: 5px;
 }
+
 .contactForm input[type=submit] {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -521,6 +577,7 @@ form.newsletterForm input[type=submit]:hover {
   transition: all ease-in-out 250ms;
   background-color: white;
 }
+
 .contactForm input[type=submit]:hover {
   transform: scaleX(0.8);
   letter-spacing: 0.8rem;
@@ -528,20 +585,27 @@ form.newsletterForm input[type=submit]:hover {
   color: white;
   background-color: #F4591E;
 }
+
 .contactForm .inscriptionCheck {
   display: flex;
   align-items: center;
   margin: 10px 0;
 }
+
 .contactForm .inscriptionCheck input[type=radio] {
   margin: 0 10px;
   width: 10px;
 }
+
 .contactForm .inscriptionCheck label {
   font-size: 2vh;
   font-weight: inherit;
 }
-.contactForm #helpNom, .contactForm #helpTel, .contactForm #helpMail, .contactForm #helpRobot {
+
+.contactForm #helpNom,
+.contactForm #helpTel,
+.contactForm #helpMail,
+.contactForm #helpRobot {
   display: none;
 }
 
@@ -574,21 +638,25 @@ footer {
   text-align: center;
   padding: 50px 0 50px 0;
 }
+
 footer p {
   margin: 10px 0 10px 0;
   color: white;
 }
+
 footer p.bolder {
   font-size: 1.2rem;
   letter-spacing: 0.2rem;
   font-weight: bold;
   text-transform: uppercase;
 }
+
 footer .socialBanner {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 footer img {
   max-width: 24px;
   margin: 0 2px 0 2px;
@@ -600,6 +668,7 @@ footer img {
   justify-content: center;
   align-items: center;
 }
+
 .footerBaner .bandBanner {
   margin: 0 30px;
   width: 100%;
@@ -616,6 +685,7 @@ footer img {
   height: 50px;
   cursor: pointer;
 }
+
 #upArrow:hover {
   -webkit-animation: animeLogo ease-in-out 0.3s;
   animation: animeLogo ease-in-out 0.3s;
@@ -625,24 +695,30 @@ footer img {
   0% {
     transform: scale(1);
   }
+
   10% {
     transform: scale(1.1);
   }
+
   100% {
     transform: scale(1);
   }
 }
+
 @keyframes animeLogo {
   0% {
     transform: scale(1);
   }
+
   10% {
     transform: scale(1.1);
   }
+
   100% {
     transform: scale(1);
   }
 }
+
 button[name=backSite] {
   border: none;
   border-radius: 5px;
@@ -692,6 +768,7 @@ button[name=backSite] {
     transform: scaleX(1);
   }
 }
+
 @media screen and (max-width: 767px) {
   h1 {
     width: 90%;
@@ -736,7 +813,8 @@ button[name=backSite] {
     max-width: 100%;
   }
 
-  .contactForm input, .contactForm textarea {
+  .contactForm input,
+  .contactForm textarea {
     width: 90%;
   }
 
@@ -766,6 +844,7 @@ button[name=backSite] {
   #upArrow {
     width: 48px;
   }
+
   #upArrow:hover {
     -webkit-animation: none;
     animation: none;
@@ -775,19 +854,23 @@ button[name=backSite] {
     padding-left: 1px;
   }
 }
+
 @media all and (min-width: 768px) and (max-width: 1024px) {
   form.newsletterForm input[type=email] {
     width: 60%;
   }
 
-  .contactForm input, .contactForm textarea {
+  .contactForm input,
+  .contactForm textarea {
     width: 90%;
   }
 }
+
 @media all and (max-width: 320px) {
   table {
     font-size: 0.8rem;
   }
+
   table td:last-of-type {
     display: none;
   }

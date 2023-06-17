@@ -33,6 +33,7 @@ for img_file in tqdm(img_files):
         img_updated = True
 
     new_file_name = os.path.splitext(img_file)[0] + ".jpg"
+
     if new_file_name != img_file or img_updated:
         os.remove(img_file)
         cv2.imwrite(new_file_name, img)

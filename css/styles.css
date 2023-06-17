@@ -2028,6 +2028,12 @@ input.btn .icon--dots {
   visibility: visible;
 }
 
+.albums--list .albums__item:not(.uk-active) .albums__buy {
+  margin-top: 20%;
+  opacity: 1;
+  visibility: visible;
+}
+
 .albums--list .albums__item:not(.uk-active) .albums__title {
   color: white;
 }

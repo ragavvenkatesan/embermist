@@ -1,3 +1,6 @@
+""" Converts all png to jpg and shrink to 1920
+"""
+
 import os
 import cv2
 import sys
@@ -17,6 +20,8 @@ img_files = [
 
 for img_file in tqdm(img_files):
     img = cv2.imread(img_file)
+
+    img_updated = False
     if max(img.shape) > MAX_SIZE:
         img = cv2.resize(
             img,
@@ -25,7 +30,9 @@ for img_file in tqdm(img_files):
                 round(MAX_SIZE / max(img.shape) * img.shape[0]),
             ),
         )
+        img_updated = True
 
     new_file_name = os.path.splitext(img_file)[0] + ".jpg"
-    os.remove(img_file)
-    cv2.imwrite(new_file_name, img)
+    if new_file_name != img_file or img_updated:
+        os.remove(img_file)
+        cv2.imwrite(new_file_name, img)

@@ -1,6 +1,6 @@
 /* ----------------------------
 
-	Project:	Symphonius
+	Project:	Ember Mist
 	Version:	1.1.0
 	Author:     Nika Vasilyeva
 	Website:    http://themeforest.net/user/the-nika/

@@ -5,8 +5,8 @@
 if (!empty($_POST)) {
 
 	$receive_email = '';
-	$subject = 'New message from yourdomain.com';
-	$reply_to_email = 'info@yourdomain.com';
+	$subject = 'New message from Ember Mist';
+	$reply_to_email = 'booking@embermist.band';
 	$message = '';
 		
 	$headers = array(

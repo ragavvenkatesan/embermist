@@ -1200,7 +1200,7 @@ input.btn .icon--dots {
 }
 
 .slider--intro .slider__image {
-  opacity: .3;
+  opacity: .5;
 }
 
 @media (max-height: 999px) and (max-width: 639px) {
@@ -1268,7 +1268,7 @@ input.btn .icon--dots {
   }
 
   .slider--intro .uk-dotnav>*>* {
-    height: 3px;
+    height: 10px;
   }
 }
 
